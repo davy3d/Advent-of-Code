@@ -9,11 +9,6 @@ with open(filename) as f:
     for line in f:
         line = line.strip()
         line = list(line)
-        #print(line)
-        #l = len(line)
-        #for x in range(l):
-        #    y = y+1
-        #    gig = line[l-1]
         try:
             for a in range(10):
                 try:
